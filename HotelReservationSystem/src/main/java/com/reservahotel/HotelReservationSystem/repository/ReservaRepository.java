@@ -1,0 +1,9 @@
+package com.reservahotel.HotelReservationSystem.repository;
+
+import com.reservahotel.sistema.model.Reserva;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ReservaRepository extends JpaRepository<Reserva, Long> {
+}
